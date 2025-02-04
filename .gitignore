@@ -1,8 +1,9 @@
 # cache
 .idea/
 __pycache__/
+.DS_Store
 
 # testing file
 test.py
-
-
+input*
+functions*
