@@ -5,5 +5,15 @@ __pycache__/
 
 # testing file
 test.py
-input*
+input.txt
+input.py
 functions*
+
+# real tests
+real_tests/
+
+# env
+coding-test-env
+
+# vscode
+.vscode/
