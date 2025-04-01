@@ -3,6 +3,12 @@ https://codeup.kr/problem.php?id=2653
 2653 : 규칙에 맞는 이진수 만들기 (Small)
 
 15:30 ~ X(해설)
+
+input 
+3
+
+output
+5
 '''
 
 n = int(input())

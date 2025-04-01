@@ -24,20 +24,20 @@ output
 '''
 
 # 크로아티아 알파벳 담은 배열이 중요
-# sol1. 조금 복잡할수도? 
-# word = input()
-# cnt = 0
-# for i in ['dz=', 'c=', 'c-', 'd-', 'lj', 'nj', 's=', 'z=']:
-#     if i in word:
-#         cnt += word.count(i)
-#         word = word.replace(i, '-')
+# sol1. 다소 복잡하게 풂
+word = input()
+cnt = 0
+for i in ['dz=', 'c=', 'c-', 'd-', 'lj', 'nj', 's=', 'z=']:
+    if i in word:
+        cnt += word.count(i)
+        word = word.replace(i, '-')
 
-# cnt += len(word)
-# cnt -= word.count('-')
-# print(cnt)
+cnt += len(word)
+cnt -= word.count('-')
+print(cnt)
 
 
-# sol2. 
+# sol2. 위에서 의도한 방법 간소화
 word = input()
 for i in ['dz=', 'c=', 'c-', 'd-', 'lj', 'nj', 's=', 'z=']:
     word = word.replace(i, '*')
