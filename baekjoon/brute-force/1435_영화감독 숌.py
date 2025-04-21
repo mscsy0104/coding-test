@@ -10,12 +10,9 @@ output
 '''
 
 
-
-
 # sol1.
 def test():
     n = int(input())
-
     nums = []
 
     for i in range(666, 3000000):

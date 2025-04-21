@@ -1,3 +1,33 @@
+'''
+https://www.acmicpc.net/problem/10989
+수 정렬하기 3
+
+input
+10
+5
+2
+3
+1
+4
+2
+3
+5
+1
+7
+
+output
+1
+1
+2
+2
+3
+3
+4
+5
+5
+7
+'''
+
 import sys
 
 
@@ -25,3 +55,10 @@ for i in range(10001):
     if cnt_li[i] != 0:
         for _ in range(cnt_li[i]):
             print(i)
+
+# c.f.
+# 계수정렬 이해
+# https://kill-xxx.tistory.com/entry/python-%EA%B3%84%EC%88%98%EC%A0%95%EB%A0%AC
+
+# 메모리 초과 해결
+# https://yoonsang-it.tistory.com/49
